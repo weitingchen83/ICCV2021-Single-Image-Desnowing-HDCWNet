@@ -1,4 +1,4 @@
-# ALL Snow Removed: Single Image Desnowing Algorithm Using HierarchicalDual-tree Complex Wavelet Representation and Contradict Channel Loss (HDCWNet)
+# ALL Snow Removed: Single Image Desnowing Algorithm Using Hierarchical Dual-tree Complex Wavelet Representation and Contradict Channel Loss (HDCWNet)
 
 ## Accepted by ICCV 2021.
 
