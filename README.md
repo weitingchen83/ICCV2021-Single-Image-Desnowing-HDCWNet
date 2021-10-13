@@ -1,4 +1,4 @@
-# ALL Snow Removed: Single Image Desnowing Algorithm Using Hierarchical Dual-tree Complex Wavelet Representation and Contradict Channel Loss (HDCWNet).<br> Accepted by ICCV'21.
+# ALL Snow Removed: Single Image Desnowing Algorithm Using Hierarchical Dual-tree Complex Wavelet Representation and Contradict Channel Loss (HDCWNet) Accepted by ICCV'21.
 
 
 ![image](folder/result.png)
@@ -68,9 +68,10 @@ Please cite this paper in your publications if it is helpful for your tasks:
 Bibtex:
 ```
 @inproceedings{chen2021all,
-    title     = {ALL Snow Removed: Single Image Desnowing Algorithm Using HierarchicalDual-tree Complex Wavelet Representation and Contradict Channel Loss},
-    author    = {Chen, Wei-Ting and Fang, Hao-Yu, and Hsieh, Cheng-Lin, and Tsai, Cheng-Che, and Chen, I-Hsiang, and Ding, Jian-Jiun, and Kuo, Sy-Yen},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    year      = {2021}
+  title={ALL Snow Removed: Single Image Desnowing Algorithm Using Hierarchical Dual-Tree Complex Wavelet Representation and Contradict Channel Loss},
+  author={Chen, Wei-Ting and Fang, Hao-Yu and Hsieh, Cheng-Lin and Tsai, Cheng-Che and Chen, I and Ding, Jian-Jiun and Kuo, Sy-Yen and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={4196--4205},
+  year={2021}
 }
 ```
