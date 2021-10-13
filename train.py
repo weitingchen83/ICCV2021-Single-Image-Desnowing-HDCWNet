@@ -396,7 +396,7 @@ def build_model(shape):
     x = x_R
     
     output = sliceLayer(edge=16,name='Output')(x)
-    outputBCP = Activation('linear',name='CCPLoss')(outputBP)
+    outputBCP = Activation('linear',name='CCPLoss')(output)
     
     model = Model([input,inputGT],[x, output, outputBCP], name='DTCWT_DESNOW')
     
