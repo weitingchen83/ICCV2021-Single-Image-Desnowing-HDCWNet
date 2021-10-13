@@ -2,7 +2,7 @@
 
 ### Accepted by ICCV 2021.
 
-![image](folder/ex.png)
+![image](folder/result.png)
 
 
 # Abstract:
