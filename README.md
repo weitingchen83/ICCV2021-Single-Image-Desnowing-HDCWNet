@@ -44,6 +44,21 @@ To generate the recovered result you need:
 4. keras 2.3.0
 5. dtcwt 0.12.0
 
+Training
+```
+python ./train.py --logPath ./your_log_path --dataPath /path_to_data/data.npy --gtPath /path_to_gt/gt.npy --batchsize batchsize --epochs epochs --modelPath ./path_to_exist_model/model_to_load.h5 --validation_num number_of_validation_image --steps_per_epoch steps_per_epoch
+```
+
+*data.npy should be npy of training image, which shape is (number_of_image, 480, 640, 3), range is (0, 255) and datatype is uint8 or int
+*gt.npy should be npy of ground truth image, which shape is (number_of_image, 480, 640, 3), range is (0, 255) and datatype is uint8 or int
+
+Example:
+```
+python ./train.py --logPath ./log --dataPath ./training_data.npy --gtPath ./training_gt.npy --batchsize 3 --epochs 1500 --modelPath ./previous_log/preivious_model.h5 --validation_num 200 --steps_per_epoch 80
+```
+
+
+
 Testing
 ```
 $ python ./predict.py -dataroot ./your_dataroot -datatype datatype -predictpath ./output_path -batch_size batchsize
