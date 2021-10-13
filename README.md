@@ -12,6 +12,36 @@ Snow is a highly complicated atmospheric phenomenon that usually contains snowfl
 [[Paper Download]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_ALL_Snow_Removed_Single_Image_Desnowing_Algorithm_Using_Hierarchical_Dual-Tree_ICCV_2021_paper.pdf)
 [[Dataset Download]](https://ccncuedutw-my.sharepoint.com/:u:/g/personal/104501531_cc_ncu_edu_tw/EfCooq0sZxxNkB7F8HgCyKwB-sJQtVE59_Gpb9soatYi5A?e=5NjDhb)
 
+
+
+
+# Setup and environment
+
+To generate the recovered result you need:
+
+1. Python 3
+2. CPU or NVIDIA GPU + CUDA CuDNN
+3. tensorflow 1.15.0
+4. keras 2.3.0
+5. dtcwt 0.12.0
+
+Testing
+```
+$ python ./predict.py -dataroot ./your_dataroot -datatype datatype -predictpath ./output_path -batch_size batchsize
+```
+*datatype default: tif, jpg ,png
+
+Examples
+```
+$ 
+python ./predict.py -dataroot ./testImg -predictpath ./p -batch_size 3
+python ./predict.py -dataroot ./testImg -datatype tif -predictpath ./p -batch_size 3
+```
+
+
+The pre-trained model can be downloaded from: https://ntucc365-my.sharepoint.com/:u:/g/personal/f05943089_ntu_edu_tw/EZtus9ex-GtNukLuSxWGmPIBEJIzRFMbEl0dFeZ_oTQnVQ?e=xnfqFL. Put the "finalmodel.h5" to the 'modelParam'.
+
+
 # Citations
 Please cite this paper in your publications if it is helpful for your tasks:    
 
