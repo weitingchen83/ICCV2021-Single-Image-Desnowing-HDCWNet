@@ -49,8 +49,8 @@ Training
 python ./train.py --logPath ./your_log_path --dataPath /path_to_data/data.npy --gtPath /path_to_gt/gt.npy --batchsize batchsize --epochs epochs --modelPath ./path_to_exist_model/model_to_load.h5 --validation_num number_of_validation_image --steps_per_epoch steps_per_epoch
 ```
 
-*data.npy should be npy of training image, which shape is (number_of_image, 480, 640, 3), range is (0, 255) and datatype is uint8 or int
-*gt.npy should be npy of ground truth image, which shape is (number_of_image, 480, 640, 3), range is (0, 255) and datatype is uint8 or int
+*data.npy should be numpy of training image whose shape is (number_of_image, 480, 640, 3). The range is (0, 255) and the datatype is uint8 or int.
+*gt.npy should be numpuy of ground truth image, whose shape is (number_of_image, 480, 640, 3). The range is (0, 255) and datatype is uint8 or int.
 
 Example:
 ```
