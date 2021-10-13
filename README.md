@@ -42,7 +42,8 @@ python ./predict.py -dataroot ./testImg -datatype tif -predictpath ./p -batch_si
 ```
 
 
-The pre-trained model can be downloaded from: https://ntucc365-my.sharepoint.com/:u:/g/personal/f05943089_ntu_edu_tw/EZtus9ex-GtNukLuSxWGmPIBEJIzRFMbEl0dFeZ_oTQnVQ?e=xnfqFL. Put the "finalmodel.h5" to the 'modelParam'.
+The pre-trained model can be downloaded from: https://ntucc365-my.sharepoint.com/:u:/g/personal/f05943089_ntu_edu_tw/EZtus9ex-GtNukLuSxWGmPIBEJIzRFMbEl0dFeZ_oTQnVQ?e=xnfqFL. 
+Put the "finalmodel.h5" to the 'modelParam'.
 
 
 # Citations
