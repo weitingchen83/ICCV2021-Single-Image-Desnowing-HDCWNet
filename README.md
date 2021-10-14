@@ -50,7 +50,7 @@ python ./train.py --logPath ./your_log_path --dataPath /path_to_data/data.npy --
 ```
 
 *data.npy should be numpy of training image whose shape is (number_of_image, 480, 640, 3). The range is (0, 255) and the datatype is uint8 or int.<br>
-*gt.npy should be numpuy of ground truth image, whose shape is (number_of_image, 480, 640, 3). The range is (0, 255) and datatype is uint8 or int.
+*gt.npy should be numpy of ground truth image, whose shape is (number_of_image, 480, 640, 3). The range is (0, 255) and datatype is uint8 or int.
 
 Example:
 ```
